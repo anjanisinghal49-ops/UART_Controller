@@ -1,0 +1,31 @@
+# Simulation generated files
+simulation/dump.vcd
+simulation/uart_sim
+
+# OpenROAD generated intermediate files
+lvs/generate_reference.ys
+lvs/make_reference.sh
+lvs/reference_cell_defs.spice
+lvs/sky130A_setup_uart.tcl
+lvs/uart_reference.spice
+lvs/uart_reference_corrected.spice
+lvs/uart_reference_lvs.spice
+lvs/uart_reference_new.spice
+lvs/uart_reference_raw.spice
+lvs/setup.tcl
+lvs/run_lvs_new.tcl
+results/*.ext
+results/*.guide
+
+# Temporary/log files
+*.log
+*.tmp
+*.swp
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db

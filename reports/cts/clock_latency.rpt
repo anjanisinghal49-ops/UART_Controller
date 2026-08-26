@@ -1,0 +1,20 @@
+Clock clk
+rise -> rise
+    min     max
+   0.00    0.00 source latency
+   0.33         network latency _374_/CLK
+           0.33 network latency _332_/CLK
+---------------
+   0.33    0.33 latency
+           0.01 skew
+
+fall -> fall
+    min     max
+   0.00    0.00 source latency
+   0.31         network latency _374_/CLK
+           0.32 network latency _332_/CLK
+---------------
+   0.31    0.32 latency
+           0.01 skew
+
+
